@@ -225,7 +225,7 @@ li.heading {
   margin-bottom: 5px;
   justify-content: center;
   border-bottom: none;
-  font-size: 20px;
+  font-size: 25px;
 }
 .venu {
   color: #963804;
@@ -271,5 +271,9 @@ li.heading {
   }
   img {
     margin: 0;
+  }
+  .program {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
