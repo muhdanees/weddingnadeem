@@ -1,0 +1,274 @@
+:root {
+  --font-sans: "CogniCue", sans-serif;
+  --font-mono: "SF Mono", monospace;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 26px;
+}
+h4 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px 0px 10px;
+  font-weight: 600;
+  line-height: 1.1;
+  font-family: var(--font-sans);
+}
+p:not(:last-child) {
+  margin: 0 0 15px 0;
+}
+@font-face {
+  font-family: "CogniCue";
+  font-style: normal;
+  font-weight: 900;
+  src: url(../fonts/TTLakes-Compressed-Black.otf);
+}
+
+@font-face {
+  font-family: "CogniCue";
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: condensed;
+  src: url(../fonts/TTLakes-Condensed-Bold.otf);
+}
+
+@font-face {
+  font-family: "CogniCue";
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/TTLakes-Medium.otf);
+}
+
+@font-face {
+  font-family: "SF Mono Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: local("SF Mono Regular"),
+  url("../fonts/SFMonoRegular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF Mono Regular Italic";
+  font-style: normal;
+  font-weight: 400;
+  src: local("SF Mono Regular Italic"),
+  url("../fonts/SFMonoRegularItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF Mono Light";
+  font-style: normal;
+  font-weight: 300;
+  src: local("SF Mono Light"), url("../fonts/SFMonoLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF Mono Light Italic";
+  font-style: normal;
+  font-weight: 300;
+  src: local("SF Mono Light Italic"),
+  url("../fonts/SFMonoLightItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF Mono Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: local("SF Mono Medium"), url("../fonts/SFMonoMedium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF Mono Medium Italic";
+  font-style: normal;
+  font-weight: 500;
+  src: local("SF Mono Medium Italic"),
+  url("../fonts/SFMonoMediumItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF Mono Semibold";
+  font-style: normal;
+  font-weight: 600;
+  src: local("SF Mono Semibold"),
+  url("../fonts/SFMonoSemibold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF Mono Semibold Italic";
+  font-style: normal;
+  font-weight: 600;
+  src: local("SF Mono Semibold Italic"),
+  url("../fonts/SFMonoSemiboldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF Mono Bold";
+  font-style: normal;
+  font-weight: 600;
+  src: local("SF Mono Bold"), url("../fonts/SFMonoBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF Mono Bold Italic";
+  font-style: normal;
+  font-weight: 600;
+  src: local("SF Mono Bold Italic"),
+  url("../fonts/SFMonoBoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF Mono Heavy";
+  font-style: normal;
+  font-weight: 900;
+  src: local("SF Mono Heavy"), url("../fonts/SFMonoHeavy.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF Mono Heavy Italic";
+  font-style: normal;
+  font-weight: 900;
+  src: local("SF Mono Heavy Italic"),
+  url("../fonts/SFMonoHeavyItalic.woff") format("woff");
+}
+html {
+  height: 100%;
+}
+body {
+  padding: 15px 50px 50px 20px;
+  text-align: center;
+  background-color: #f1edda;
+  color: #202e3c;
+  font-family: var(--font-sans);
+  background-image: url(../images/cornerimg.png), url(../images/repeatimg.png);
+  background-position: left top, top right;
+  background-repeat: no-repeat, repeat-y;
+  background-size: 105px, 40px;
+}
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+img {
+  width: 80px;
+  margin-left: 50px;
+}
+.starting {
+  margin: 10px 0 20px;
+  font-size: 24px;
+}
+.invite-request {
+  color: #8d4714;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 20px;
+}
+.groombride {
+  color: #019e01;
+  margin-bottom: 1px;
+}
+.weds {
+  font-family: var(--font-mono);
+  font-size: 24px;
+}
+.program {
+  color: #3a7f4a;
+  padding: 12px 10px 1px;
+  background-color: #ffffff80;
+  margin-bottom: 30px;
+  margin-left: -20px;
+  margin-right: -10px;
+}
+.program .groombride {
+  margin-bottom: 10px;
+}
+.list {
+  list-style: none;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.list li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed #3a7f4a;
+}
+.list li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.list li span {
+  line-height: 20px;
+  padding: 0 4px;
+  background-color: #f1edda;
+  margin-bottom: -5px;
+}
+li.heading {
+  text-align: center;
+  margin-bottom: 5px;
+  justify-content: center;
+  border-bottom: none;
+  font-size: 20px;
+}
+.venu {
+  color: #963804;
+  margin-bottom: 25px;
+}
+.fontChange {
+  color: #8d4714;
+  font-size: 34px;
+}
+.contact-person {
+  color: #120d07;
+  margin-left: -20px;
+  margin-right: -10px;
+}
+.contact-person p span {
+  display: inline-block;
+}
+.contact-person p em {
+  font-size: 20px;
+  margin-top: 2px;
+}
+.grom-details {
+  border: 2px solid #add5ad;
+  border-radius: 10px;
+  padding: 15px 10px 10px;
+  margin-bottom: 20px;
+}
+.grom-details p {
+  margin-bottom: 5px;
+}
+.grom-details .weds {
+  margin-bottom: 5px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  body {
+    padding: 15px;
+    background-size: auto, auto;
+  }
+  .contact-person p span {
+    display: inline-block;
+  }
+  img {
+    margin: 0;
+  }
+}
