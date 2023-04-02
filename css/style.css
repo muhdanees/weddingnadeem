@@ -248,7 +248,7 @@ li.heading {
   margin-top: 2px;
 }
 .grom-details {
-  border: 2px solid #add5ad;
+  border: 2px dashed #add5ad;
   border-radius: 10px;
   padding: 20px 10px 10px;
   margin-bottom: 20px;
