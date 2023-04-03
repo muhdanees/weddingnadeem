@@ -33,6 +33,13 @@ h6 {
   line-height: 1.1;
   font-family: var(--font-sans);
 }
+p a {
+  font-family: var(--font-sans);
+  color: #464b50;
+  margin: 0 3px;
+  font-weight: 600;
+  font-size: 22px;
+}
 p span { display: inline-block;}
 p:not(:last-child) {
   margin: 0 0 15px 0;
