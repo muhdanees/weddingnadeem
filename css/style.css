@@ -171,6 +171,13 @@ body {
   background-repeat: no-repeat, repeat-y;
   background-size: 105px, 40px;
 }
+
+/* important information to be highlighted */
+/** important information to be highlighted */
+/* todo refactor this method */
+/* ? this is a query */
+/* ! deprecated method don't use it */
+
 .container {
   max-width: 700px;
   margin: 0 auto;
